@@ -1,0 +1,39 @@
+<view class="main">
+  <view class="bitem" bindtap="bitem">
+    <image style="width:750rpx;height:406rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/%E9%A6%96%E9%A1%B5%E5%9B%BE%E7%89%87.jpg?sign=9f1f07465015aab98a76a3631ab4a34f&t=1560598161"></image>
+  </view>
+  <view class='empty'></view>
+  <view class="fun1item">
+    <view class="item item1" bindtap='kanban'>
+      <image style="width:60rpx;height:60rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/icon_search.png?sign=69aa1b5ca2da1cfda92729fecdf69a49&t=1558407308"></image>
+      <text class='item_text'>看板查询</text>
+      </view>
+    <view class="item item1" bindtap='shenqing'>
+      <image style="width:60rpx;height:60rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/icon_compile.png?sign=fa6c6e6b59dacc7050b061e0c2707cc3&t=1558407355"></image>
+      <text class='item_text'>报验申请</text>
+    </view>
+  </view>
+  <view class='empty1'></view>
+  <view class="fun1item">
+    <view class="item item1" bindtap='zhuantai'>
+      <image style="width:60rpx;height:60rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/icon_index_line.png?sign=e894c74b1682b2de14dcaee8866438c9&t=1558407331"></image>
+       <text class='item_text'>状态统计</text>
+       </view>
+    <view class="item item1" bindtap='jieguo'>
+      <image style="width:60rpx;height:60rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/icon_dispose.png?sign=7fc972febd04c8c8dfb68bb132bf5c83&t=1558407377"></image>
+      <text class='item_text'>报验结果</text>
+      </view>
+  </view>
+  <view class='empty1'></view>
+  <view class="fun2item">
+    <view class="item item1" bindtap='xinzen' style='width:686rpx'>
+      <image style="width:60rpx;height:60rpx" src="https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/%E6%96%B0%E5%A2%9E.png?sign=ddb6e960cdaa9bdcfca20bf8dcfcba21&t=1558408080"></image>
+      <text class='item_text'>新增意见</text>
+      </view>
+  </view>
+</view>
+<view class='buttom_log'>
+  <view class='log'>
+    <image src='https://7368-shipbuild-test-a21082-1259074823.tcb.qcloud.la/images/IM%20LOGO(%E7%9F%A2%E9%87%8F%E5%8E%9F%E5%9B%BE).png?sign=382387b70db2e04d194718cfca9023d2&t=1558415495' style='width: 128rpx; height: 128rpx;opacity:{{0.15}}'></image>
+  </view>
+</view>

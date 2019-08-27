@@ -1,0 +1,60 @@
+/**index.wxss**/
+page {
+  width: 750rpx;
+  background-color: whitesmoke;
+}
+.fun1item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fun2item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bitem{
+  height:406rpx;
+  width:750rpx;
+}
+
+.item1 {
+  height: 110rpx;
+  width: 300rpx;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty{
+  width:100%;
+  height: 44rpx;
+}
+.empty1{
+  width:100%;
+  height: 30rpx;
+}
+.item_text{
+  line-height: 40rpx;
+  font-size: 36rpx;
+  color: 23337E;
+  margin-left: 20rpx;
+}
+.buttom_log{
+  display: flex;
+  height:128rpx;
+  margin-top: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.log{
+  width: 128rpx;
+  height: 128rpx;
+  background-size: cover;
+}
