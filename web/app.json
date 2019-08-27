@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/baoyan/baoyan",
+    "pages/my/test",
+    "pages/load/load",
+    "pages/jieguo/jieguo",
+    "pages/addrbok/template",
+    "pages/zhuantai/zhuantai",
+    "pages/kanban/kanban",
+    "pages/xinzen/xinzen",
+    "pages/projectinfo/projectinfo",
+    "pages/mydone/mydone",
+    "pages/mywilldone/mywilldone",
+    "pages/chat/chat",
+    "pages/person/person",
+    "pages/setting/setting",
+    "pages/aboutus/aboutus",
+    "pages/detail/detail",
+    "pages/feedback/feedback",
+    "pages/xiugai/xiugai",
+    "pages/xiugai_tel/xiugai_tel",
+    "pages/xiugai_id/xiugai_id",
+    "pages/xiugai_danwei/xiugai_danwei",
+    "pages/xiugai_bumen/xiugai_bumen",
+    "pages/submit/submit",
+    "pages/close/close",
+    "pages/deliver/deliver",
+    "pages/addrbok_ex/addrbok_ex",
+    "pages/chat_message/chat_message",
+    "pages/infomation/infomation",
+    "pages/index/index",
+    "pages/baoyan_feedback/baoyan_feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffff",
+    "navigationBarTitleText": "报验+",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color":"#9B9B9B",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "/images/icon_work.png",
+        "selectedIconPath": "/images/icon_work_fill.png"
+      },
+      {
+        "pagePath": "pages/addrbok/template",
+        "text": "通讯录",
+        "iconPath": "/images/icon_addresslist.png",
+        "selectedIconPath": "/images/icon_addresslist_fil.png"
+      },
+      {
+        "pagePath": "pages/my/test",
+        "text": "我的",
+        "iconPath": "/images/icon_signal.png",
+        "selectedIconPath": "/images/icon_signal_fill.png"
+      }
+    ],
+    "selectedColor": "#23337E"
+  },
+  "sitemapLocation": "sitemap.json"
+}

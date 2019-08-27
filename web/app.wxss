@@ -1,0 +1,63 @@
+/*swiper*/
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.hot-box {
+  display: block;
+  height: 100%;
+  font-family: Helvetica;
+}
+/* list */
+.themes-list {
+  background: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+.themes-list-box {
+  display: block;
+  position: relative;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.themes-list-main {
+  margin-left: 1px;
+}
+.themes-list-name {
+  font-size: 14px;
+  color: #444;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+}
+/*tab*/
+.swiper-tab {
+  height: 50px;
+  background: #fff;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+.swiper-tab-list {
+  margin: 0 20px;
+  padding: 0 4px;
+  font-size: 28rpx;
+  font-family: Helvetica;
+}
+.active {
+  /*border-bottom: 1px solid #FFCC00;*/
+  color: #FFCC00;
+}
+.swiper-tab-img {
+  text-align: center;
+}
+.img {
+  width:23px;
+  height: 23px;
+}
